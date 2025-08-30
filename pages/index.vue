@@ -19,7 +19,7 @@
 
 <script setup>
 import { useAsyncData } from "#app";
-import { queryContent } from "@nuxt/content";
+// Uso de composables automáticos de Nuxt Content
 
 const { data: sucesos } = await useAsyncData("sucesos", () =>
   queryContent("sucesos").find()

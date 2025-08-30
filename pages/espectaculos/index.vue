@@ -13,8 +13,8 @@
 </template>
 
 <script setup>
-import { useContent } from "@nuxt/content";
-const { data: articles } = await useContent("espectaculos")
-  .sort({ date: -1 })
-  .find();
+// Uso de composable auto-importado queryContent
+const { data: articles } = await useAsyncData("espectaculos", () =>
+  queryContent("espectaculos").sort({ date: -1 }).find()
+);
 </script>
