@@ -1,0 +1,33 @@
+# .gitignore for Nuxt.js project
+node_modules/
+.nuxt/
+dist/
+.env
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.tmp
+*.bak
+*.pid
+coverage/
+
+# Ignore Netlify build output
+.netlify/
+
+# Ignore local environment files
+.env.local
+.env.*.local
+
+# Ignore lock files except package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore OS generated files
+Thumbs.db
