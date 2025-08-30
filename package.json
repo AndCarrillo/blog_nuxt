@@ -1,0 +1,16 @@
+{
+  "name": "Blog_Nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt.js blog - Tarea 1",
+  "author": "Andrea Carrillo",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.6.3",
+    "better-sqlite3": "^12.2.0",
+    "nuxt": "^4.0.3"
+  }
+}
