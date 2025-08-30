@@ -4,30 +4,28 @@ Este proyecto es un blog dinámico desarrollado con Nuxt.js y @nuxt/content, est
 
 ## Estructura
 
-- `/content/sucesos/`
-- `/content/deportes/`
-- `/content/espectaculos/`
+- `/content/sucesos/`: Noticias de sucesos
+- `/content/deportes/`: Noticias de deportes
+- `/content/espectaculos/`: Noticias de espectáculos
 
 ## Funcionalidades
 
-- Navegación entre categorías y artículos
-- Botones anterior/siguiente en cada noticia
-- Generación estática para despliegue
+- Navegación entre categorías desde la página principal
+- Avance y retroceso entre noticias
+- Generación estática lista para Netlify
 
 ## Despliegue en Netlify
 
-1. Ejecuta:
-   ```bash
-   npm run generate
-   ```
-2. Publica la carpeta `.output/public` en Netlify.
-   - **Build Command:** `npm run generate`
-   - **Publish Directory:** `.output/public`
+1. Inicia sesión en Netlify y crea un nuevo sitio desde GitHub.
+2. Selecciona el repositorio `blog_nuxt`.
+3. Build command: `npm run generate`
+4. Publish directory: `.output/public`
+5. Haz clic en "Deploy site".
 
-## Enlace al sitio desplegado
+## Enlace al sitio publicado
 
-[Ver blog en Netlify](https://TU-ENLACE-NETLIFY-AQUI)
+[Ver blog en Netlify](https://andrea-blog.netlify.app/)
 
 ---
 
-Modifica el enlace por el de tu publicación final en Netlify.
+**Recuerda subir solo el código fuente, sin la carpeta `node_modules`.**
