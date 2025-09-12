@@ -1,6 +1,7 @@
 export default {
   target: "static",
   modules: ["@nuxt/content"],
+  css: ["~/assets/menu.css"],
   head: {
     titleTemplate: "%s - Noticias",
     meta: [

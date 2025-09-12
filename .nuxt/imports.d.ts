@@ -29,9 +29,14 @@ export { withCtx, withDirectives, withKeys, withMemo, withModifiers, withScopeId
 export { requestIdleCallback, cancelIdleCallback } from '#app/compat/idle-callback';
 export { setInterval } from '#app/compat/interval';
 export { defineLazyHydrationComponent } from '#app/composables/lazy-hydration';
-export { queryCollection, queryCollectionSearchSections, queryCollectionNavigation, queryCollectionItemSurroundings } from '../node_modules/@nuxt/content/dist/runtime/app';
+export { queryContent } from '../node_modules/@nuxt/content/dist/runtime/legacy/composables/query';
+export { useContentHelpers } from '../node_modules/@nuxt/content/dist/runtime/composables/helpers';
+export { useContentHead } from '../node_modules/@nuxt/content/dist/runtime/composables/head';
+export { useContentPreview } from '../node_modules/@nuxt/content/dist/runtime/composables/preview';
+export { withContentBase, useContentDisabled as useContentState, useContentDisabled as useContent } from '../node_modules/@nuxt/content/dist/runtime/composables/utils';
+export { useUnwrap } from '../node_modules/@nuxt/content/dist/runtime/composables/useUnwrap';
+export { fetchContentNavigation } from '../node_modules/@nuxt/content/dist/runtime/legacy/composables/navigation';
 export { flatUnwrap as unwrapSlot } from '../node_modules/@nuxtjs/mdc/dist/runtime/utils/node';
 export { parseMarkdown } from '../node_modules/@nuxtjs/mdc/dist/runtime/parser';
-export { stringifyMarkdown } from '../node_modules/@nuxtjs/mdc/dist/runtime/stringify';
 export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';

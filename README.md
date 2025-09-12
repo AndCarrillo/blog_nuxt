@@ -24,7 +24,7 @@ Este proyecto es un blog dinámico desarrollado con Nuxt.js y @nuxt/content, est
 
 ## Enlace al sitio publicado
 
-[Ver blog en Netlify](https://andrea-blog.netlify.app/)
+[Ver blog en Netlify](https://nuxt-blog-simple.netlify.app)
 
 ---
 

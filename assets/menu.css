@@ -1,0 +1,121 @@
+/* Títulos de noticias y cuerpo de artículo */
+article h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1565c0;
+  background: linear-gradient(90deg, #e0f7fa 0%, #e3f2fd 100%);
+  border-radius: 0.6rem;
+  padding: 0.8rem 0;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(21, 101, 192, 0.04);
+}
+
+article h2 {
+  font-size: 1.3rem;
+  color: #00838f;
+  margin: 1.2rem 0 0.7rem 0;
+  font-weight: 600;
+}
+
+article h3 {
+  font-size: 1.1rem;
+  color: #0097a7;
+  margin: 1rem 0 0.5rem 0;
+  font-weight: 500;
+}
+
+article p {
+  font-size: 1.05rem;
+  color: #263238;
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+}
+
+article img {
+  display: block;
+  max-width: 100%;
+  margin: 1.2rem auto 1.5rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(21, 101, 192, 0.07);
+}
+
+@media (max-width: 600px) {
+  article h1 {
+    font-size: 1.3rem;
+    padding: 0.5rem 0;
+  }
+  article h2 {
+    font-size: 1.1rem;
+  }
+  article p {
+    font-size: 0.98rem;
+  }
+}
+/* Título principal */
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #1565c0;
+  letter-spacing: 0.01em;
+  background: linear-gradient(90deg, #e0f7fa 0%, #e3f2fd 100%);
+  border-radius: 0.7rem;
+  padding: 1.1rem 0 1.1rem 0;
+  box-shadow: 0 1px 6px rgba(21, 101, 192, 0.06);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 0;
+  margin: 2.5rem 0 0 0;
+  list-style: none;
+  align-items: center;
+}
+
+nav ul li {
+  width: 100%;
+  max-width: 480px;
+}
+
+nav ul li a {
+  display: block;
+  width: 100%;
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  background: linear-gradient(90deg, #e0f7fa 0%, #e3f2fd 100%);
+  color: #1565c0;
+  border: 2px solid #b3e5fc;
+  border-radius: 0.7rem;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s, border 0.18s, box-shadow 0.18s;
+  box-shadow: 0 2px 12px rgba(21, 101, 192, 0.08);
+  letter-spacing: 0.01em;
+}
+
+nav ul li a:hover,
+nav ul li .router-link-active {
+  background: linear-gradient(90deg, #b2ebf2 0%, #b3e5fc 100%);
+  color: #00838f;
+  border-color: #4fc3f7;
+}
+
+@media (min-width: 600px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+  nav ul li {
+    max-width: 320px;
+  }
+  nav ul li a {
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+  }
+}
