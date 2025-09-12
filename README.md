@@ -26,4 +26,8 @@ Este proyecto es un blog dinámico desarrollado con Nuxt.js y @nuxt/content, est
 
 [![Ver blog en Netlify](https://img.shields.io/badge/Ver%20blog%20en%20Netlify-1976d2?style=for-the-badge&logo=netlify&logoColor=white&labelColor=1976d2)](https://nuxt-blog-simple.netlify.app)
 
+## Vista del menú principal
+
+![Vista del menú principal del blog](public/images/blog_menu.PNG)
+
 ---
