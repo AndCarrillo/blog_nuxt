@@ -24,19 +24,6 @@ Este proyecto es un blog dinámico desarrollado con Nuxt.js y @nuxt/content, est
 
 ## Enlace al sitio publicado
 
-<a href="https://nuxt-blog-simple.netlify.app" target="_blank" style="
-	display: inline-block;
-	background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
-	color: #fff;
-	border: 1.5px solid #1976d2;
-	border-radius: 0.7rem;
-	font-size: 1.08rem;
-	font-weight: 600;
-	padding: 0.45rem 1.5rem;
-	text-decoration: none;
-	box-shadow: 0 1px 6px rgba(25, 118, 210, 0.10);
-	margin: 0.5rem 0 1.5rem 0;
-	transition: background 0.18s, color 0.18s, border 0.18s, box-shadow 0.18s;
-">Ver blog en Netlify</a>
+[![Ver blog en Netlify](https://img.shields.io/badge/Ver%20blog%20en%20Netlify-1976d2?style=for-the-badge&logo=netlify&logoColor=white&labelColor=1976d2)](https://nuxt-blog-simple.netlify.app)
 
 ---
