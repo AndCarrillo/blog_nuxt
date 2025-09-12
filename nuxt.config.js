@@ -11,6 +11,6 @@ export default {
   },
 
   nitro: {
-    preset: 'static'
-  }
+    preset: "static",
+  },
 };

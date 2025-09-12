@@ -1,3 +1,24 @@
+/* Botón reutilizable para navegación (usado en Atrás) */
+.nav-btn {
+  background: #f5fafd;
+  color: #1976d2;
+  border: 1.2px solid #e0f2f1;
+  border-radius: 0.35rem;
+  font-size: 0.98rem;
+  font-weight: 400;
+  padding: 0.22rem 0.95rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1.1rem;
+  box-shadow: none;
+  transition: background 0.15s, color 0.15s, border 0.15s;
+}
+.nav-btn:hover {
+  background: #e3f2fd;
+  color: #00838f;
+  border-color: #b3e5fc;
+}
 /* Títulos de noticias y cuerpo de artículo */
 article h1 {
   font-size: 2rem;

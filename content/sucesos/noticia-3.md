@@ -1,6 +1,6 @@
 ---
-title: "Noticia 3: Rescate en la Montaña"
-author: "Laura Méndez"
+title: "Bomberos controlan incendio en local comercial en barrio México"
+author: "Juan Fernando Lara Salas"
 date: "2025-09-05"
 image: "/images/rescate-montana.jpg"
 slug: "rescate-montana-paraiso"

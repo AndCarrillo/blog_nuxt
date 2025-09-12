@@ -2,7 +2,7 @@
 title: "Noticia 1: Incendio Urbano Arrasa con Edificio Histórico"
 author: "María González"
 date: "2025-09-01"
-image: "/images/incendio.jpg"
+image: "/images/incendio.jpeg"
 slug: "incendio-urbano-edificio-historico"
 ---
 

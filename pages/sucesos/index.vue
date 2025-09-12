@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NuxtLink to="/" class="nav-btn">Atrás</NuxtLink>
     <h1>Sucesos</h1>
     <ul class="news-list">
       <li v-for="article in articles" :key="article.slug">
