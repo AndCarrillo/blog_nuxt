@@ -27,5 +27,3 @@ Este proyecto es un blog dinámico desarrollado con Nuxt.js y @nuxt/content, est
 [Ver blog en Netlify](https://nuxt-blog-simple.netlify.app)
 
 ---
-
-**Recuerda subir solo el código fuente, sin la carpeta `node_modules`.**
